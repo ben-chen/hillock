@@ -1,5 +1,5 @@
-use std::time::{Duration, Instant};
 use std::collections::HashMap;
+use std::time::{Duration, Instant};
 
 /// A simple stopwatch to profile execution time
 pub struct StopWatch {
@@ -28,6 +28,7 @@ impl StopWatch {
             return;
         }
         self.data.clear();
+        self.keys.clear();
         self.last = Instant::now();
     }
 
