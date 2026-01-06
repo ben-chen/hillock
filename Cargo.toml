@@ -1,9 +1,11 @@
 [package]
 name = "hillock"
-version = "0.1.1"
-edition = "2021"
+version = "0.1.2"
+edition = "2024"
 authors = ["Hubert Yuan", "Ben Chen"]
 description = "A simple stopwatch that stores execution times at each step and can print a breakdown"
+keywords = ["stopwatch", "timer", "benchmark"]
+categories = ["development-tools::profiling"]
 license = "MIT"
 
 [dependencies]
